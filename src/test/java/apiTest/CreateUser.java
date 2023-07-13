@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 public class CreateUser {
 
     @Test
-    public void testSignUp() {
+    public void testSignUp1() {
         String randomEmail = UUID.randomUUID().toString() + "@gmail.com";
         // Set the base URL
         RestAssured.baseURI = "https://plug-insure-auth.vercel.app";
